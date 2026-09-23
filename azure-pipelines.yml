@@ -55,7 +55,7 @@ steps:
 
 # 8. Run 50 unit tests
 - script: |
-    pytest tests/test_app_50_cases.py \
+    pytest test_app_50_cases.py \
       -v \
       -ra \
       --junitxml=test-results/junit.xml \
